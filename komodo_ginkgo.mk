@@ -17,6 +17,7 @@ $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 $(call inherit-product, vendor/komodo/config/common_full_phone.mk)
 $(call inherit-product, vendor/miuicamera/common/common-vendor.mk)
 
+KOMODO_VARIANT := RELEASE
 CURRENT_BUILD_TYPE := nogapps
 
 # Device identifier. This must come after all inclusions.
