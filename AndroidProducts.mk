@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ginkgo.mk
+    $(LOCAL_DIR)/komodo_ginkgo.mk
+
+COMMON_LUNCH_CHOICES := \
+    komodo_ginkgo-user \
+    komodo_ginkgo-userdebug \
+    komodo_ginkgo-eng
